@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/ListItem.css'
 
 const TodoListItem = ({ todo, deleteTodo, startEditing, finishEditing }) => {
     let TodoValue = todo.value;
