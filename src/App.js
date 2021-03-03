@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/App.css";
-import TodoContainer from "./TodoContainer";
+import TodoContainer from "./components/TodoContainer";
 
 function App() {
 	return (
