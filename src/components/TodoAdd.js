@@ -17,7 +17,7 @@ function TodoAdd({addTodo}) {
     }
     return (
         <div className="grid-container">
-            <textarea id="task" onChange={updateTodoValue}></textarea>
+            <textarea id="task" onChange={updateTodoValue} rows="2" cols="20"></textarea>
             <br/>
             <button id="btn" onClick={submitTodo}>Add New</button>
         </div>
