@@ -27,7 +27,7 @@ function TodoContainer() {
 
         const updated_todos = [...todos, newtodoObj];
         setTodos(updated_todos);
-        console.log(updated_todos);
+        // console.log(updated_todos);
     }
 
     const deleteTodo = todo_id => {
